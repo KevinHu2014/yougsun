@@ -72,49 +72,44 @@ WHERE  `ID` < 5   ");//從member中選取全部(*)的資料
 
     <?php require_once './header.php';?>
     
-    
+    <div class="carousel slide" id="carousel-906218">
+                <ol class="carousel-indicators">
+                    <li data-slide-to="0" data-target="#carousel-906218">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-906218">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-906218" class="active">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img class="img-responsive center-block" src="img/landing_page/index_1.jpg"  />
+                        <div class="carousel-caption">
+                             <h2>自主學習總決賽</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive center-block" src="img/landing_page/index_2.jpg"  />
+                        <div class="carousel-caption">
+                            <h2>幹部訓練</h2>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img class="img-responsive center-block" src="img/landing_page/index_3.jpg"  />
+                        <div class="carousel-caption">
+                           <h2>期末成發</h2>
+                        </div>
+                    </div>
+                </div> 
+                <a class="left carousel-control" href="#carousel-906218" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-906218" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- <img class="img-responsive center-block" src="https://goo.gl/gbHQ3r"> -->
-                <div class="fill" style="background-image:url('https://goo.gl/gbHQ3r');"></div>
-                <div class="carousel-caption">
-                    <h2>自主學習總決賽</h2>
-                </div>
-            </div>
-            <div class="item">
-               <!--  <img class="img-responsive center-block" src="https://goo.gl/dF9hQf"> -->
-                <div class="fill" style="background-image:url('https://goo.gl/dF9hQf');"></div>
-                <div class="carousel-caption">
-                    <h2>幹部訓練</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!--  <img class="img-responsive center-block" src="https://goo.gl/jZ7Anc"> -->
-                <div class="fill" style="background-image:url('https://goo.gl/jZ7Anc');"></div>
-                <div class="carousel-caption">
-                    <h2>期末成發</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
+   
 
     <!-- Page Content -->
     <div class="container">
