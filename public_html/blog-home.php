@@ -2,8 +2,8 @@
 
     $dbhost = 'localhost';
     $dbuser = 'kevin';
-    $dbpass = 'a129749872';
-    $dbname = 'kevin_youngsun';
+    $dbpass = '';
+    $dbname = '';
     
 mysql_connect($dbhost, $dbuser, $dbpass) or die("cannot connect"); //
 mysql_select_db($dbname)or die("cannot select DB");//我要從member這個資料庫撈資料
